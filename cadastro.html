@@ -1,0 +1,46 @@
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+
+    <link rel="stylesheet" href="csscadastro.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js.js" defer></script>
+</head>
+<body>
+    <form >
+        <h1>
+            Cadastre-se
+        </h1>
+        <div class="input">
+            <input required type="text" id = "v_nome"/>
+            <label>Nome</label>
+            <span class="error"></span>    
+        </div>       
+        <div class="input">
+            <input required type="text" id= "v_e_mail"/>
+            <label>Email</label>
+            <span class="error"></span>
+        </div>
+        <div class="input">
+            <input required type="password" id= "v_senha" />
+            <label>Senha</label>
+            <span class="error"></span>
+        </div>
+        <button type="button" onclick="gravar()">Cadastre-se</button>
+           <span id="changePage"><a href= "videohtml.html">
+        </span>
+
+    </form>
+    <footer>
+        <span>
+            <a href="https://www.instagram.com/srta.raimee/" >
+                Srta.raimee
+            </a>
+        </span>
+    </footer>
+</body>
+</html>
