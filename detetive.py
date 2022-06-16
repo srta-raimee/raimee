@@ -1,6 +1,4 @@
-''''
-alunos: Larissa Raimee Gomes, Pedro Ghezzi, Isabela Navarro
-'''''
+
 
 import time
 exit = False
